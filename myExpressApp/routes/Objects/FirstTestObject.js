@@ -5,7 +5,7 @@ const firstTestObject = {
     ReverseString: (original) => original.split('').reverse().join(''),
   },
   /* data available */
-  data: { inputReverseString: 'Hello' },
+  data: {},
 };
 
 module.exports = firstTestObject;
