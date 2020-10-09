@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var firstTestObject = require('./Objects/FirstTestObject');
+var firstTestObject = require('../Objects/FirstTestObject');
 
 /* GET home page */
 router.get('/', (req, res) => {
