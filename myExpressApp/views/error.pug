@@ -1,0 +1,14 @@
+
+extends layout
+
+<!-- Error handling page
+Ex: 
+*message: Page not found 
+*error status: 404
+*error stack: detail information on the error
+-->
+block content
+
+  h1= message
+  h2= error.status
+  pre #{error.stack}
